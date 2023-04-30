@@ -10,7 +10,7 @@
   },
   "bin": {
     "nulite": "./src/index.js",
-    "nux": "./src/index.js "
+    "nux": "./src/index.js"
   },
   "repository": "https://github.com/JohnFromme/nulite.git",
   "author": "John Fromme <support@johnfromme.com>",
@@ -18,5 +18,12 @@
   "private": true,
   "devDependencies": {
     "eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.0",
+    "nanospinner": "^1.1.0",
+    "openai": "^3.2.1"
   }
 }

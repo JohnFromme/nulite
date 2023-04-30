@@ -1,0 +1,22 @@
+{
+  "name": "nulite",
+  "version": "0.1.0",
+  "description": "Nulite is a CLI tool that accelerates your productivity by paring you with AI.",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src --ext .js"
+  },
+  "bin": {
+    "nulite": "./src/index.js",
+    "nux": "./src/index.js "
+  },
+  "repository": "https://github.com/JohnFromme/nulite.git",
+  "author": "John Fromme <support@johnfromme.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  }
+}
